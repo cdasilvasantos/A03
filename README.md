@@ -7,26 +7,36 @@ Github: To create a Github account, go to https://github.com/join. You are going
 
 Part 2:
 
-- Branch
+- Branch: represents an independent line of development. It is found within the respository. However, it does not affect the primary branch, which allows you to work freely without affecting the existing version. You can safely develop features, fix bugs, or experiment with new ideas in a seperate area of the respository.
 
-- Clone
+- Clone: making a copy of a repository from Github to your local machine. By making a clone, you can edit the files using your own editor, while using Git to keep track of any changes you made. This is all possible while being offline.
 
-- Commit
+- Commit: an operation similar to "revising." By commiting your work, Git will create a unique ID which enables you to keep track of the changes you made, who made them and when. Commits also allow the user to add a commit message which will give a brief description about the changes that were made.
 
-- Fetch
+- Fetch: git fetch is a command used to tell a local repository that there are changes avaialbale in a seperate remote repository without actually bringing those changes into the local one. Fetching allows you to review your changes.
 
-- GIT
+- GIT: written by the author of Linux, Git is an open source program used to track changes in text files. It lets you manage and keep track of your source code history.
 
-- Github
+- Github: a platform that is used to host code online. It stores code created and shared by users in repositories, coming with tools to collaborate on projects of any size.
 
-- Merge
+- Merge: takes the changes from one branch and puts it into another one. It can be done through a pull request.
 
-- Merge Conflict
+- Merge Conflict: when branches merge, a difference might occur. It occurs when people make different changes to the same line of the same file, or if a person edits a file and a differnet person deletes that file. It must be resolved before a merge can happen.
 
-- Push
+- Push: to send committed changes to a remote repository. Changing somehting locally, you can then push these changes so that other people may access them.
 
-- Pull
+- Pull: occurs when fetching in changes and merging them. If someone edits a remote file that both of you are workiung on, you might want to pull those changes to your local copy to that everything is up to date. Correlates with fetch.
 
-- Remote
+- Remote: the version of a repository or branch that is hosted. To ensure changes can be synched, remote versions can be connected to local clones.
 
-- Repository
+- Repository: the most basic element of Github. It is similar to a folder. It contains all the files and store them into the file's revision history, while also storing documentation. A repository can have several collaborators, and is given the option to be public or private.
+
+Sources:
+
+- https://docs.github.com/en/get-started/quickstart/github-glossary#branch
+
+- https://github.com/join
+
+- https://www.jetbrains.com/student/
+
+- https://git-scm.com/downloads 
